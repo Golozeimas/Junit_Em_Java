@@ -9,6 +9,7 @@ public class Produto {
     private final BigDecimal precoUnitario;
 
     public Produto(String codigo, String nome, BigDecimal precoUnitario) {
+            // lógica básica de preços, tem que ser maior que ZERO
             if (precoUnitario == null) {
                 throw new NullPointerException("Preço não pode ser nulo");
             }

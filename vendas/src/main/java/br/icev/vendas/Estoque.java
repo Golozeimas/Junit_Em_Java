@@ -26,8 +26,14 @@ public class Estoque {
         return produtos.getOrDefault(codigo, 0);
     }
 
-    public void reservar(String codigo, int quantidade)
-            throws SemEstoqueException, QuantidadeInvalidaException {
-        throw new UnsupportedOperationException("TODO");
+    public void reservar(String codigo, int quantidade) throws SemEstoqueException, QuantidadeInvalidaException {
+        if (quantidade <= 0) {
+            throw new QuantidadeInvalidaException("Quantidade deve ser maior que zero");
+        }
+        int disponivel = getDisponivel(codigo);
+        if (disponivel < quantidade) {
+            throw new SemEstoqueException("Estoque insuficiente");
+        }
+        produtos.put(codigo, disponivel - quantidade);
     }
 }
