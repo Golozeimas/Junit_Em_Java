@@ -1,8 +1,10 @@
-package br.icev.vendas;
+package vendas.src.test.java.br.icev.vendas;
 
 import br.icev.vendas.excecoes.QuantidadeInvalidaException;
 import br.icev.vendas.excecoes.SemEstoqueException;
 import org.junit.jupiter.api.Test;
+import vendas.src.main.java.br.icev.vendas.Estoque;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /** NÃO ALTERE ESTES TESTES. Implemente as classes de produção para fazê-los passar. */

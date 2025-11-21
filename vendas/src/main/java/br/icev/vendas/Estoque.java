@@ -1,4 +1,4 @@
-package br.icev.vendas;
+package vendas.src.main.java.br.icev.vendas;
 
 import br.icev.vendas.excecoes.QuantidadeInvalidaException;
 import br.icev.vendas.excecoes.SemEstoqueException;
