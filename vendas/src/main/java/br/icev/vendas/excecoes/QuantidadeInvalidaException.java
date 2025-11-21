@@ -1,4 +1,4 @@
-package br.icev.vendas.excecoes;
+package vendas.src.main.java.br.icev.vendas.excecoes;
 
 
 public class QuantidadeInvalidaException extends Exception {

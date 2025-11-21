@@ -1,7 +1,8 @@
 package vendas.src.main.java.br.icev.vendas;
 
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
-import br.icev.vendas.excecoes.SemEstoqueException;
+
+import vendas.src.main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
+import vendas.src.main.java.br.icev.vendas.excecoes.SemEstoqueException;
 
 public class Estoque {
     public void adicionarEstoque(String codigo, int quantidade) throws QuantidadeInvalidaException {

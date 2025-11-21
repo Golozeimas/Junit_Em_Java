@@ -1,7 +1,8 @@
 package vendas.src.main.java.br.icev.vendas;
 
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
+
 import vendas.src.main.java.br.icev.vendas.Produto;
+import vendas.src.main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
 
 import java.math.BigDecimal;
 

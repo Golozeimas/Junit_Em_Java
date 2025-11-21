@@ -1,10 +1,11 @@
 package vendas.src.test.java.br.icev.vendas;
 
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
+
 import org.junit.jupiter.api.Test;
 import vendas.src.main.java.br.icev.vendas.Carrinho;
 import vendas.src.main.java.br.icev.vendas.PoliticaDesconto;
 import vendas.src.main.java.br.icev.vendas.Produto;
+import vendas.src.main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
 
 import java.math.BigDecimal;
 

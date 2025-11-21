@@ -1,10 +1,11 @@
 package vendas.src.test.java.br.icev.vendas;
 
-import br.icev.vendas.excecoes.ErroPagamentoException;
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
-import br.icev.vendas.excecoes.SemEstoqueException;
+
 import org.junit.jupiter.api.Test;
 import vendas.src.main.java.br.icev.vendas.*;
+import vendas.src.main.java.br.icev.vendas.excecoes.ErroPagamentoException;
+import vendas.src.main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
+import vendas.src.main.java.br.icev.vendas.excecoes.SemEstoqueException;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
