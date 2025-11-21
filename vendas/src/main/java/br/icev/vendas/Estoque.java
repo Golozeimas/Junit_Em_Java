@@ -22,7 +22,8 @@ public class Estoque {
     }
 
     public int getDisponivel(String codigo) {
-        throw new UnsupportedOperationException("TODO");
+        // esse metodo vai retornar um valor associado a uma chave específica ou o padrão, que seria 0
+        return produtos.getOrDefault(codigo, 0);
     }
 
     public void reservar(String codigo, int quantidade)
